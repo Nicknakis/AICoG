@@ -208,7 +208,3 @@ If you find this work useful, please cite:
 ```
 
 ---
-
-## Acknowledgements
-
-N.N. is supported by the **NOMIS Foundation**. C.K. is supported by the **IdAML Chair** hosted at ENS Paris-Saclay, Université Paris-Saclay. We thank the ICML reviewers and the area chair for their constructive feedback and valuable suggestions.
