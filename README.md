@@ -17,8 +17,6 @@ AICoG is a role-based graph embedding framework that represents each node as a *
 - [Command-Line Arguments](#command-line-arguments)
 - [Reproducing Paper Results](#reproducing-paper-results)
 - [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
-
 ---
 
 ## Highlights
