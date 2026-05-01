@@ -2,10 +2,6 @@
 
 > Official PyTorch implementation of **"Aitchison Embeddings for Learning Compositional Graph Representations"**, accepted at **ICML 2026**.
 
-**Authors:** [Nikolaos Nakis](#)¹, [Chrysoula Kosma](#)³, [Panagiotis Promponas](#)², [Michail Chatzianastasis](#)⁴, [Giannis Nikolentzos](#)⁵
-
-<sup>¹ Human Nature Lab, Yale University &nbsp;·&nbsp; ² Yale Institute for Network Science, Yale University &nbsp;·&nbsp; ³ Centre Borelli, Université Paris-Saclay &nbsp;·&nbsp; ⁴ École Polytechnique &nbsp;·&nbsp; ⁵ Department of Informatics and Telecommunications, University of Peloponnese</sup>
-
 AICoG is a role-based graph embedding framework that represents each node as a **composition over latent archetypal factors** and compares nodes using **Aitchison geometry** — the canonical geometry for compositional data. Compositions are embedded via **isometric log-ratio (ILR)** coordinates, which preserve Aitchison distances while enabling unconstrained optimization in Euclidean space. The result is an embedding model that is **interpretable by construction**, supports **subcompositional coherence** (principled component restriction without retraining), and matches or exceeds strong baselines on link prediction and node classification.
 
 ---
