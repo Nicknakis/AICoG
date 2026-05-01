@@ -1,0 +1,24 @@
+Datasets format:
+
+Netwok INPUT (upper triangular part of the adjacency matrix for the undirected case):
+
+- sparse_i: input data, link row positions i with i<j
+
+- sparse_j: input data, link column positions j with i<j
+
+Link Prediction:
+
+- sparse_i_rem: file denoting rows i of missing links, with i<j 
+ 
+- sparse_j_rem: file denoting columns j of missing links, with i<j
+ 
+- non_sparse_i: file denoting negative sample rows i, with i<j
+ 
+- non_sparse_j: file denoting negative sample columns, with i<j
+
+Node Classification:
+
+- labels: file the node labels with order 0 to N-1. Only for networks named {dataset}_with_labels
+
+
+
